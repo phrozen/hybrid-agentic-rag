@@ -58,6 +58,8 @@ Any OpenAI-compatible `/v1/embeddings` endpoint works. The pre-built `./data` in
 jina-embeddings-v5-small-retrieval (1024 dimensions, int8 quantized)
 ```
 
+GGUF files for llama.cpp: <https://huggingface.co/jinaai/jina-embeddings-v5-text-small-retrieval-GGUF>
+
 Run your server on `localhost:8080` — for example with llama.cpp:
 
 ```bash
