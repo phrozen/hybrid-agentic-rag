@@ -1,0 +1,69 @@
+# The Mercenary Companies of Aethelgard
+
+## Overview
+
+Aethelgard hosts numerous mercenary companies offering military services to nations, merchants, and organizations, with the largest being the **Golden Legion** (human), **Iron Company** (dwarven), and **Storm Riders** (multi-species). These companies fought in the **War of Shattered Skies**, **Pirate Wars**, and various border conflicts, with veterans settling in **Crystal Bay**, **Silverhaven**, and **Grommashar**. **Queen Elara** regulates mercenary activities in the **Eastern Kingdoms**, while **Admiral Hornbreaker** employs companies for naval security.
+
+## Founding and History
+
+The mercenary companies of Aethelgard trace their origins to the chaotic period following **the Great Persecution**, when the destruction of established political structures created both the demand for military services and the supply of trained fighters with no other livelihood. Refugees who had lost their homes and communities found that their combat skills were among the few assets they could still monetize, and the warlords, merchants, and fragmented governments of the era were willing to pay for those skills.
+
+The three largest companies that dominate Aethelgard's mercenary market each emerged from different circumstances. The **Golden Legion** was founded by human cavalry officers displaced from their commands during the reorganization that followed **the Great Persecution**, who gathered like-minded soldiers and offered their services as a disciplined military unit rather than individual fighters. The **Iron Company** arose from dwarven miners and metalworkers in the **Stormpeak Mountains** who discovered that their strength, endurance, and familiarity with underground combat made them exceptionally effective mercenaries. The **Storm Riders** were born from the **Pirate Wars**, when multi-species crews of privateers realized that their naval combat skills were valuable in peacetime as well as war.
+
+The **War of Shattered Skies** transformed the mercenary landscape, as the massive demand for trained fighters led to rapid expansion of existing companies and the creation of numerous new ones. Many companies grew wealthy from wartime contracts, and their veterans accumulated combat experience that made them even more valuable in the conflict's aftermath. The **Treaty of Silverhaven**'s provision for reduced standing armies in the signatory nations created further demand for mercenary services, as governments that could not maintain large permanent forces turned to contracted soldiers for periodic needs.
+
+Regulation followed expansion. **Queen Elara**'s government, recognizing that unregulated mercenary companies could become threats to public order, established a licensing and oversight system that remains in place today. Companies must register with the crown, maintain minimum standards of training and conduct, and accept royal jurisdiction over disputes arising from their contracts. In exchange, licensed companies receive preferential access to government contracts and legal protections against breach of contract by their employers.
+
+## Organization and Structure
+
+Each mercenary company operates as an independent business with its own command structure, operating procedures, and corporate culture. However, certain organizational patterns are common across the industry. Most companies are led by a captain or commander who holds ultimate authority over contracts, operations, and personnel. Below the captain, a hierarchy of lieutenants, sergeants, and specialists provides the command and control structure necessary for military operations.
+
+The **Golden Legion** is organized along traditional military lines, with companies of one hundred soldiers grouped into regiments of five hundred, each with its own support staff and logistical tail. This structure enables the Legion to deploy forces of varying size depending on contract requirements, from small security details to full-scale military expeditions. The **Iron Company** favors smaller, more autonomous units that can operate independently for extended periods, reflecting the dwarven preference for self-sufficiency. The **Storm Riders** organize around ship crews, with each vessel functioning as both a military unit and a mobile base of operations.
+
+The relationship between companies is characterized by fierce competition for contracts interrupted by occasional cooperation when circumstances demand it. The **War Council of Silverhaven** maintains a registry of licensed companies and their capabilities, enabling rapid coordination when military emergencies require the deployment of mercenary forces alongside regular troops. This system, tested during the **Pirate Wars**, has proven effective at mobilizing private military resources in service of public defense.
+
+## Headquarters and Bases
+
+The **Golden Legion** maintains its primary headquarters in **Silverhaven**, where its proximity to **Queen Elara**'s government facilitates contract negotiations and regulatory compliance. The Legion's headquarters includes barracks, training grounds, administrative offices, and a hiring hall where prospective employers can negotiate contracts with Legion representatives. The building's design reflects the Legion's emphasis on discipline and professionalism, with clean lines and military precision evident in every detail.
+
+The **Iron Company** bases its operations in **Stonehold**, where the majority of its dwarven personnel maintain homes and families between contracts. The Company's headquarters includes extensive underground training facilities that simulate the mining and tunnel environments where dwarven mercenaries are most effective. A secondary base in **Grommashar** provides access to **orcish** markets and the border conflicts that generate much of the Company's business.
+
+The **Storm Riders** operate from **Crystal Bay**, where their fleet of privately owned warships anchors in a dedicated section of the harbor. The company's headquarters occupies a converted warehouse on the waterfront, from which **Admiral Hornbreaker** coordinates both his mercenary operations and his cooperation with the **War Council** on naval security matters. The **Storm Riders**' mobile bases give them a flexibility that land-based companies cannot match, enabling rapid deployment throughout Aethelgard's coastal regions.
+
+## Goals and Philosophy
+
+The mercenary companies of Aethelgard operate as businesses, and their primary goal is generating profit through the provision of military services. However, the most successful companies recognize that long-term profitability depends on maintaining a reputation for reliability, competence, and ethical conduct. Companies that are known for honoring their contracts, treating civilians well, and observing the rules of war receive better contracts and more consistent employment than those that are known for brutality or unreliability.
+
+The **Golden Legion** emphasizes professional discipline and adherence to military codes of conduct, positioning itself as a reliable alternative to raising standing forces. The Legion refuses contracts that would require its soldiers to fight against the **Eastern Kingdoms** or its allies, a policy that limits its market but ensures access to the lucrative government contracts that are its primary revenue source. The **Iron Company** values self-sufficiency and adaptability, taking pride in its ability to operate effectively in any environment with minimal support. The **Storm Riders** emphasize loyalty to crew and captain above all else, viewing the company as an extended family whose members protect each other unconditionally.
+
+The mercenary code that governs Aethelgard's licensed companies prohibits a number of practices that have historically given mercenaries a bad reputation: attacking civilians, switching sides during an active contract, looting without authorization, and employing particularly cruel weapons or tactics. Violations of this code result in revocation of the offending company's license and bounty on its members, a penalty severe enough to deter most would-be violators.
+
+## Membership and Recruitment
+
+Mercenary companies recruit from a wide range of backgrounds, including military veterans, displaced individuals seeking a fresh start, and adventure-seeking youths looking for excitement. The **Golden Legion** requires a minimum of two years of military experience or completion of its own training program, which provides the equivalent of basic military instruction. The **Iron Company** draws primarily from dwarven communities and expects applicants to meet its rigorous physical standards. The **Storm Riders** accept anyone who can prove their competence at sea and their willingness to abide by the crew's code.
+
+Current estimates place the total number of professional mercenaries operating in Aethelgard at approximately fifteen thousand, distributed across roughly thirty licensed companies of varying size. The three largest companies, the **Golden Legion**, **Iron Company**, and **Storm Riders**, account for roughly half of this total, with the remainder divided among smaller companies that specialize in particular types of work or operate in specific regions.
+
+Compensation varies widely by company, experience level, and the danger of the work, but licensed mercenaries generally earn significantly more than regular soldiers of comparable rank. This pay premium reflects both the higher risk that mercenaries accept and the greater flexibility that their employment model requires. Many mercenaries serve for a decade or more before retiring with substantial savings, while others find the lifestyle too demanding and transition to civilian security or law enforcement work.
+
+## Allies and Enemies
+
+**Queen Elara**'s government is the single largest employer of mercenary companies in the **Eastern Kingdoms**, contracting regularly with the **Golden Legion** and **Storm Riders** for border security, emergency response, and supplementary military forces. **Admiral Hornbreaker**'s naval operations rely heavily on the **Storm Riders** for maritime security, and the **War Council of Silverhaven** has integrated mercenary forces into its defense planning. The **Miners' Union** and various merchant organizations hire mercenaries for escort and security services.
+
+The mercenary companies' relationships with standing military forces are complex. Regular soldiers often view mercenaries as competitors for military contracts, while mercenaries see regular forces as bloated bureaucracies that lack their flexibility and combat experience. These tensions occasionally flare into open conflict, though the Code of Conduct and royal oversight generally keep competition within acceptable bounds.
+
+The **Shadowfen Collective** and other criminal organizations occasionally attempt to hire mercenaries for illegal operations, an approach that licensed companies uniformly reject due to the risk of license revocation. Unlicensed operators, who exist outside the regulatory framework, are more willing to accept such contracts, creating a shadow market for military services that both the licensed companies and the government seek to suppress.
+
+## Notable Members
+
+Commander Marcus Valerian has led the **Golden Legion** for fifteen years, building it into Aethelgard's most respected mercenary company through a combination of tactical brilliance and strict adherence to the Code of Conduct. Captain Borri Deepdelve commands the **Iron Company** with the stubborn determination characteristic of dwarven military leaders, specializing in siege warfare and underground operations. Admiral-Commander Kara Stormwright leads the **Storm Riders** with the fierce loyalty of a captain whose crew would follow her into any danger, and whose naval combat skills are respected throughout Aethelgard.
+
+Sergeant Thalia Ironwolf, a human veteran of the **Pirate Wars**, serves as the **Golden Legion**'s chief training officer and has developed the program that transforms raw recruits into professional soldiers. Corporal Grik, an **orcish** fighter who left **Grommashar** seeking better opportunities, has become one of the **Storm Riders**' most decorated boarding specialists and exemplifies the multi-species character of Aethelgard's mercenary market.
+
+## Notable Operations
+
+The **Pirate Wars** deployment remains the largest mercenary operation in Aethelgard's history, with the **Golden Legion** providing ground forces for port defense, the **Storm Riders** contributing their fleet to anti-piracy patrols, and the **Iron Company** securing coastal fortifications. The success of this deployment validated the **War Council's** decision to integrate mercenary forces into its defense plan and established the framework for future cooperation.
+
+The **Crystal Bay** maritime security contract, an ongoing arrangement between **Mayor Ironscale**'s government and the **Storm Riders**, provides the free port with naval security that its own limited forces could not match. This contract exemplifies the mercenary business model: a government that needs military capability but cannot afford a standing force hires professionals on a long-term basis to fill the gap.
+
+The **Eastern Plains** caravan escort service, operated by a consortium of smaller companies under **Golden Legion** coordination, provides armed protection for merchant caravans traveling between **Silverhaven** and **Stonehold**. This service has dramatically reduced the losses that caravans previously suffered from banditry and monster attacks, making overland trade safer and more profitable for all parties involved.

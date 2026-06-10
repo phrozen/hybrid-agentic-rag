@@ -1,0 +1,69 @@
+# The Sages' Consortium
+
+## Overview
+
+The Sages' Consortium is an international scholarly organization coordinating research across **Thaldor**, **Silverhaven University**, **Academy of Stars**, and dwarven archives. The Consortium shares knowledge, prevents duplicate research, and publishes collaborative findings. **Archchancellor Marcus Thornfield** and **Lady Celestia Moonwhisper** support the Consortium, which maintains Aethelgard's largest combined library catalog.
+
+## Founding and History
+
+The Sages' Consortium was born from the recognition, widely shared among Aethelgard's scholars after the **War of Shattered Skies**, that the existing approach to knowledge was fundamentally broken. Before the Consortium's founding, scholarly institutions operated in isolation, each hoarding its collections and duplicating research that other institutions had already completed. The war had destroyed irreplaceable libraries and archives, and the reconstruction effort revealed that many precious works existed in only one copy, now lost forever. The Consortium was established to ensure that such catastrophic knowledge loss would never happen again.
+
+The initial meeting that led to the Consortium's founding took place in **Silverhaven** in 345 AS, convened by **Archchancellor Marcus Thornfield** and attended by representatives from **Silverhaven University**, the dwarven archives of **Stonehold**, and several independent scholars. **Lady Celestia Moonwhisper** sent representatives from the **Academy of Stars** who observed but did not commit, as elven scholarly traditions viewed knowledge-sharing with understandable caution given their long experience of human misuse of elven knowledge.
+
+The Consortium's founding charter established three core commitments: that scholarly knowledge should be shared across institutional boundaries, that rare and vulnerable materials should be duplicated and distributed to prevent loss, and that research collaboration across traditions produces better results than isolated inquiry. These principles faced resistance from institutions accustomed to treating their knowledge collections as competitive advantages, but the demonstrated benefits of collaboration gradually won over most skeptics.
+
+The Consortium's most significant early achievement was the Great Cataloguing Project, a decades-long effort to create a unified index of the holdings of every major library and archive in Aethelgard. This catalog, now maintained through magical communication networks and continuously updated, allows any scholar to determine which institutions hold materials relevant to their research and request access through the Consortium's interlibrary loan system. The catalog's existence has saved countless hours of duplicated effort and made it possible to identify gaps in the scholarly record that needed filling.
+
+## Organization and Structure
+
+The Consortium operates through a federated structure that respects the autonomy of member institutions while facilitating collaboration. The Central Secretariat, based in **Silverhaven**, coordinates the Consortium's administrative functions: managing the unified catalog, organizing conferences and colloquia, distributing research grants, and publishing collaborative findings. The Secretariat is staffed by scholars seconded from member institutions, ensuring that the Consortium's administrative staff understands the needs and cultures of the institutions they serve.
+
+The Consortium's scholarly work is organized through Research Colleges, each dedicated to a specific discipline. The College of Magical Studies collaborates with the **Arcane College of Thaldor** and the **Runemaster Circle** on magical theory. The College of Historical Studies coordinates research into Aethelgard's past, with particular emphasis on documenting the experiences of communities that have been historically marginalized. The College of Natural Philosophy investigates the physical and biological world, incorporating insights from dwarven engineering, elven herbalism, and **Lizardfolk** shamanic knowledge.
+
+Each member institution sends representatives to the Consortium's biennial Convocation, the organization's governing body that sets overall policy, approves the budget, and elects the Secretariat's leadership. The Convocation is designed to ensure that no single institution or tradition dominates the Consortium's direction, a principle that has become more important as the organization has grown to include members from increasingly diverse backgrounds.
+
+## Headquarters and Bases
+
+The Consortium's headquarters occupies the Scholar's Tower in **Silverhaven**, a building adjacent to **Silverhaven University** that houses the Central Secretariat, the unified catalog's primary access terminal, and meeting facilities for the Research Colleges. The Tower was designed by **gnomish** architects from the **Gnomish Innovation District** and incorporates numerous features intended to support scholarly work, including enchanted lighting that adjusts to the reader's needs and protective wards that preserve delicate manuscripts from deterioration.
+
+The **Thaldor** branch office, located near the **Arcane College**, serves as the primary hub for magical research coordination and maintains the consortium's most extensive collections on Arcane theory. The **Stonehold** archive annex houses copies of the dwarven archives' most important documents and provides access to the **Runemaster Circle**'s published research for scholars who cannot travel to the dwarven capital. The **Silvermoon** liaison office, staffed by elven scholars appointed by **Lady Celestia Moonwhisper**, manages the delicate process of sharing elven knowledge with non-elven researchers while respecting elven cultural restrictions.
+
+Smaller liaison offices operate in **Crystal Bay**, **Drakkenheim**, and other major population centers, ensuring that scholars throughout Aethelgard can access the Consortium's resources and contribute their work to the collective record. These offices also serve as points of contact for independent scholars who are not affiliated with any member institution but wish to participate in the Consortium's activities.
+
+## Goals and Philosophy
+
+The Consortium's primary goal is maximizing the advancement and preservation of knowledge in Aethelgard through coordination, collaboration, and resource sharing. This encompasses preventing the duplication of research effort that wastes limited scholarly resources, ensuring that rare and vulnerable materials are preserved through duplication and distribution, and creating opportunities for cross-disciplinary collaboration that would not otherwise occur.
+
+The Consortium's philosophy holds that knowledge is a common good that benefits from wide dissemination rather than competitive hoarding. This principle does not extend to dangerous knowledge, which the Consortium carefully controls through its Restricted Materials Protocol, but it does mean that the default position for most research findings is public availability. The Consortium's publication arm produces journals, monographs, and collaborative volumes that make research findings accessible to scholars throughout Aethelgard, and the unified catalog makes it possible to locate any piece of information in the consortium's extensive network.
+
+The Consortium also believes that diverse perspectives improve scholarly outcomes. Research teams that include members from different species, traditions, and institutional backgrounds consistently produce more innovative and reliable findings than homogeneous teams. This philosophy drives the Consortium's active efforts to recruit scholars from underrepresented communities and to ensure that their contributions receive the recognition they deserve.
+
+## Membership and Recruitment
+
+Institutional membership in the Consortium is open to any scholarly organization that agrees to share its catalog holdings and contribute to the organization's operating budget. Currently, twenty-three institutions hold membership, ranging from major universities to small specialist archives. Individual scholars can join as affiliates, gaining access to the Consortium's resources and the right to participate in Research Colleges without institutional sponsorship.
+
+The Consortium actively recruits institutions in underserved areas and communities, recognizing that valuable knowledge exists in places that traditional scholarship has overlooked. The recent inclusion of **Lizardfolk** oral history collections, facilitated by **Shaman Vessska**'s participation, exemplifies this approach, bringing perspectives and information that enrich the entire scholarly community.
+
+Training programs for junior scholars represent the Consortium's investment in the future of knowledge. The Junior Scholars Program provides funding, mentorship, and research opportunities to promising students from all backgrounds, with particular emphasis on candidates from communities that have historically been excluded from scholarly institutions. Graduates of this program have gone on to make significant contributions across every discipline the Consortium covers.
+
+## Allies and Enemies
+
+The **Arcane College of Thaldor** is the Consortium's most important partner in magical research, providing access to the College's extensive experimental facilities and theoretical expertise. **Silverhaven University** contributes humanistic scholarship and serves as the Consortium's administrative home. The dwarven archives of **Stonehold** provide access to centuries of dwarven knowledge, including engineering, metallurgy, and the **Runemaster Circle**'s published theoretical works. **Lady Celestia Moonwhisper**'s **Academy of Stars** contributes elven perspectives and knowledge that are unavailable elsewhere, though the elven institution's restrictions on certain materials remain a source of ongoing negotiation.
+
+The **Bards' College** complements the Consortium's written archives with oral traditions and performative knowledge that written records alone cannot capture. The **Healers' Guild** partners with the Consortium on medical research, contributing clinical data and practical insights that improve the quality of scholarly medical knowledge.
+
+The Consortium has no traditional enemies, but it faces ongoing challenges from institutions and individuals who view knowledge as a competitive advantage to be hoarded rather than shared. Some members of the **Runemaster Circle** resist sharing dwarven theoretical research, while certain elements within the **Arcane College** argue that restricted magical knowledge should not be widely disseminated. The Consortium navigates these tensions through careful negotiation and clear protocols that balance the benefits of sharing against legitimate security concerns.
+
+## Notable Members
+
+Archivist-General Helene Bookweaver has led the Consortium's Central Secretariat for twelve years, bringing organizational skill and diplomatic tact to the challenge of coordinating scholars from wildly different traditions and institutions. Master Scholar Theren Deepthought, the **Stonehold** representative, has pioneered collaborations between dwarven and elven researchers that have produced groundbreaking insights into ancient history. Professor Lyra Starfield, the **Silverhaven University** liaison, coordinates the Consortium's Research Colleges and has been instrumental in expanding the organization's reach into previously underserved communities.
+
+Elven Sage Silverleaf Whispersong represents the **Academy of Stars** on the Consortium's governing council and manages the delicate process of sharing elven knowledge while respecting **Lady Celestia Moonwhisper**'s cultural restrictions. Gnomish Inventor Tinkerton Gearbox, the **Gnomish Innovation District** representative, brings a practical engineering perspective that challenges more theoretical scholars to demonstrate the real-world applications of their research.
+
+## Notable Operations
+
+The Great Cataloguing Project, the Consortium's founding initiative, remains its most important ongoing operation. The unified catalog now includes over four million entries from member institutions' collections, with new materials being added continuously through magical communication networks that link libraries across Aethelgard. The catalog has become an indispensable tool for scholars throughout Aethelgard, and its maintenance and expansion consume a significant portion of the Consortium's resources.
+
+The Duplicate and Distribute Program addresses the organization's preservation mandate by creating copies of rare and vulnerable materials and distributing them to member institutions' archives. This program has saved numerous works from permanent loss, including several elven manuscripts that would have been destroyed when **Silvermoon**'s older archives suffered water damage. The program's most ambitious project, currently underway, involves duplicating the entire catalog of the **Stormpeak Mountains** dwarven archive, which is at risk from geological instability.
+
+The Cross-Tradition Research Initiative funds collaborative projects that bring together scholars from different disciplines and traditions to address questions that no single approach can answer. Recent projects include a collaboration between elven herbalists and dwarven metallurgists studying the properties of **ley line**-infused metals, and a joint investigation by **Lizardfolk** shamans and **Arcane College** mages into the nature of **wild magic zones**. These projects exemplify the Consortium's philosophy that cross-disciplinary collaboration produces insights that isolated research cannot.

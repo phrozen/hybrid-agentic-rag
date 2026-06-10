@@ -1,0 +1,69 @@
+# The Order of the Radiant Dawn
+
+## Overview
+
+The Order of the Radiant Dawn is an **aasimar**-led religious organization based in **Silverhaven**, dedicated to promoting multi-faith cooperation and protecting planar-touched species from discrimination. Founded by survivors of **The Great Persecution**, the Order works closely with the **Order of the Silver Dawn** to prevent future atrocities. **Queen Elara** grants the Order royal protection, and their temples serve as sanctuaries for those facing religious persecution.
+
+## Founding and History
+
+The Order of the Radiant Dawn was born from the ashes of **the Great Persecution**, when species and individuals deemed different or dangerous were hunted, displaced, and killed throughout Aethelgard. **Aasimar**, **tieflings**, **genasi**, and others with planar heritage suffered disproportionately, as their visible otherness made them easy targets for mobs incited by fear and prejudice. The survivors of this catastrophe, scarred in body and spirit, recognized that their survival depended on building institutions that could protect them and change the attitudes that had made persecution possible.
+
+The Order's founding coincided with **the Great Persecution**'s aftermath, when refugees from across Aethelgard gathered in **Silverhaven** seeking safety. Among them were several **aasimar** religious leaders who had witnessed their communities destroyed and their temples desecrated. These leaders, drawing on traditions of celestial worship that emphasized protection, justice, and the inherent worth of all beings, established the Order as both a religious organization and a mutual aid society. The first temples of the Radiant Dawn were makeshift sanctuaries in **Silverhaven**'s refugee camps, their walls draped with whatever fabrics could be found and their services conducted in the open air.
+
+The Order's early years were marked by urgent practical needs: feeding the hungry, sheltering the homeless, and protecting the vulnerable from ongoing violence. As **Silverhaven** stabilized under **Queen Elara**'s leadership, the Order transitioned from emergency response to long-term institution-building, constructing permanent temples, establishing educational programs, and developing the theological framework that would guide the organization for generations to come.
+
+The partnership with the **Order of the Silver Dawn** developed gradually, as the two organizations recognized their shared commitment to protecting the vulnerable and their complementary strengths. The Silver Dawn brought military expertise and organizational discipline, while the Radiant Dawn contributed spiritual depth and community connections. This partnership, formalized in the Dawn Accord, remains one of Aethelgard's most effective inter-organizational alliances.
+
+## Organization and Structure
+
+The Order operates through a decentralized structure that emphasizes local autonomy while maintaining shared theological principles and organizational values. Each temple is led by a Dawn Keeper, a senior member ordained through rituals that emphasize both spiritual calling and practical capability. Dawn Keepers have broad authority to adapt the Order's activities to local conditions, a flexibility that has proven essential in serving communities with very different needs and challenges.
+
+The Council of Radiance, consisting of seven senior Dawn Keepers elected by their peers, sets overall policy for the Order and adjudicates theological disputes. The Council meets monthly in the Grand Temple of the Radiant Dawn in **Silverhaven**, the Order's primary worship space and administrative headquarters. Council decisions require a two-thirds majority, ensuring that policies reflect broad consensus rather than narrow majorities.
+
+Below the Council, specialized departments handle specific aspects of the Order's mission. The Department of Sanctuary manages the temple network and its role as places of refuge. The Department of Education oversees the Order's schools and training programs. The Department of Interfaith Relations coordinates with other religious organizations, most importantly the **Order of the Silver Dawn**. The Department of Advocacy works with secular authorities to advance legal protections for planar-touched species and other marginalized communities.
+
+## Headquarters and Bases
+
+The Grand Temple of the Radiant Dawn in **Silverhaven** serves as the Order's headquarters and primary worship space, a building of remarkable beauty that incorporates architectural elements from every major culture in Aethelgard. The temple's design reflects the Order's inclusive theology, with spaces designated for worship according to multiple traditions and an open-door policy that welcomes all seekers regardless of their beliefs or background. The Grand Temple includes administrative offices, living quarters for senior Order members, and the Council Chamber where the Council of Radiance convenes.
+
+Regional temples operate in every major city in the **Eastern Kingdoms**, as well as in **Stonehold**, **Silvermoon**, and **Crystal Bay**. Each temple serves as both a worship space and a community center, providing social services, educational programs, and sanctuary for those in need. The **Silverhaven Grand Temple** is the largest, but the **Crystal Bay** temple, with its mixed-species congregation, is often cited as the most successful embodiment of the Order's ideals.
+
+The Order also maintains a network of way temples along major travel routes, small sanctuaries that provide spiritual and practical support to travelers and serve as refuges for those fleeing persecution. These way temples are staffed by rotating teams of Order members and connect to the Order's communication network, enabling rapid response when vulnerable individuals or communities need assistance.
+
+## Goals and Philosophy
+
+The Order's mission encompasses three core goals: protecting planar-touched species and other marginalized communities from discrimination and violence, promoting multi-faith cooperation as an alternative to religious conflict, and providing spiritual and practical support to those in need regardless of their species or beliefs. These goals are inseparable in the Order's theology, which teaches that protecting the vulnerable is a sacred duty and that religious diversity reflects the richness of creation rather than a problem to be solved.
+
+The Order's philosophical foundation draws on celestial traditions that emphasize the inherent worth of all beings, the importance of justice as a spiritual practice, and the transformative power of compassion. While the Order's **aasimar** founders brought a particularly celestial perspective to these teachings, the organization has intentionally evolved to incorporate insights from multiple religious traditions. The resulting synthesis, sometimes called the Dawn Path, teaches that spiritual truth is too vast for any single tradition to encompass and that enlightenment comes through the integration of diverse perspectives rather than the dominance of one.
+
+The Order's commitment to active protection, not merely spiritual comfort, distinguishes it from many religious organizations. Dawn Keepers are trained in both spiritual practice and practical self-defense, and the Order's temples are designed to serve as physical sanctuaries with reinforced doors and protective enchantments. This martial dimension of the Order's identity, shared with the **Order of the Silver Dawn**, ensures that the Radiant Dawn can back up its principles with force when peaceful means prove insufficient.
+
+## Membership and Recruitment
+
+The Order welcomes members from all species and backgrounds, though its core membership remains predominantly **aasimar** and other planar-touched individuals who have direct experience of the persecution the Order opposes. Full members, called Dawnbearers, undergo a year of training that includes theological study, community service, and practical技能 instruction. Upon completion, they take vows of compassion, justice, and mutual aid that commit them to the Order's mission for life.
+
+Associate members, called Dawnfriends, support the Order's work without taking formal vows or committing to the full training program. Dawnfriends participate in worship services, volunteer in Order programs, and contribute financially, providing the broad community support that makes the Order's specialized services possible. Currently, several thousand Dawnbearers and tens of thousands of Dawnfriends make up the Order's membership.
+
+Recruitment occurs primarily through the Order's community programs, where individuals who demonstrate commitment to the Order's values are invited to explore formal membership. The Order also actively recruits in communities affected by discrimination, offering both spiritual support and practical protection to those who need it most. This approach has made the Order deeply embedded in marginalized communities throughout Aethelgard, where it is trusted more than secular institutions that have historically failed to protect the vulnerable.
+
+## Allies and Enemies
+
+The **Order of the Silver Dawn** is the Radiant Dawn's most important ally, with the two organizations' partnership formalized in the Dawn Accord that coordinates their activities and ensures that their respective strengths complement each other. **Queen Elara**'s royal protection provides crucial political support that enables the Order to operate openly even in areas where its message of tolerance and inclusion faces resistance. The **Healers' Guild** partners with the Order to provide medical care in disadvantaged communities, while the **Bards' College** helps disseminate the Order's message through music and storytelling.
+
+The Order's most determined adversaries are the remnants of the persecution movements that target planar-touched species and religious minorities. These groups, driven by fear and hatred, operate covertly in many areas and occasionally surface to commit acts of violence against the Order's temples and members. The **Shadowfen Collective**, while not directly hostile to the Order, occasionally exploits the vulnerable communities the Order serves, creating tension between organizations that share some common ground.
+
+More broadly, the Order faces institutional discrimination in areas where planar-touched species are not legally recognized as full citizens, a problem that persists in parts of Aethelgard despite the **Treaty of Silverhaven**'s protections. The Order's advocacy work constantly pushes for legal reforms that would extend the Treaty's protections to cover all species in all jurisdictions.
+
+## Notable Members
+
+High Dawn Keeper Seraphel Lightborn, the Order's spiritual leader and the most senior member of the Council of Radiance, is an **aasimar** whose celestial heritage manifests as a persistent glow that intensifies during prayer and meditation. Seraphel's visionary leadership has guided the Order through several crises, including a resurgence of anti-tiefling violence that threatened to engulf **Silverhaven**'s refugee communities. Dawn Commander Kaelen Shieldheart leads the Order's protective operations, coordinating with the **Order of the Silver Dawn** on security matters and training Dawnbearers in self-defense. Dawn Scholar Lyra Starfire, a **genasi** theologian, has developed the theological framework that underpins the Order's multi-faith approach, a contribution that has earned her both praise and controversy within religious circles.
+
+Dawn Advocate Theron Brightpath, a **tiefling** who experienced **the Great Persecution** firsthand before finding refuge with the Order, leads the Department of Advocacy and brings passionate personal commitment to the legal and political work of protecting marginalized communities. His testimony before **Queen Elara**'s council was instrumental in securing the royal protection that the Order currently enjoys.
+
+## Notable Operations
+
+The Sanctuary Network, the Order's most visible ongoing operation, maintains temples and way temples throughout Aethelgard as places of refuge for those fleeing persecution. The Network coordinates with the **Tiefling Refugee Network** and the **Shadowfen Collective**'s humanitarian operations to ensure that vulnerable individuals can reach safety, and it provides food, shelter, medical care, and legal advocacy to those in need. The Network currently serves approximately ten thousand individuals at any given time, making it one of the largest charitable operations in Aethelgard.
+
+The Interfaith Dialogue Program brings together religious leaders from different traditions to discuss areas of common concern, build relationships, and develop joint responses to shared challenges. These dialogues have produced several important agreements, including commitments from multiple faiths to cooperate on disaster relief and to condemn violence against religious minorities. The Program represents the Order's most direct effort to achieve its goal of multi-faith cooperation and has been cited as a model for how diverse religious communities can work together.
+
+The Dawn Accord Training Program, conducted jointly with the **Order of the Silver Dawn**, prepares members of both organizations for protective operations, including sanctuary defense, evacuation of threatened communities, and coordinated response to persecution incidents. The training emphasizes de-escalation and nonviolent resolution but includes the self-defense skills that members need when peaceful approaches fail. Graduates of the program serve in both Orders' protective operations and provide a trained reserve that can be activated during crises.
