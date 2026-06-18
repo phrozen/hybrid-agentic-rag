@@ -2,7 +2,7 @@
 
 ## Talk Info
 
-- **Title:** Hybrid Agentic RAG: Where Keyword Search Meets AI
+- **Title:** Hybrid Agentic RAG: Where Search Meets AI
 - **Duration:** 30 minutes (20 min talk + 10 min demo & QA)
 - **Format:** 7 content slides + live demo + Q&A
 - **Tool:** Google Slides (Gemini-generated from this outline)
