@@ -2,7 +2,7 @@
 
 Sample questions for evaluating the hybrid agentic RAG pipeline over the Chronicles of Aethelgard corpus. Each question tests different retrieval strengths across the three search modes: **text** (keyword/BM25), **semantic** (vector), and **rff** (hybrid fusion).
 
-The corpus contains 188 documents, 2,303 chunks spanning characters, locations, events, factions, and lore — all cross-referenced with 3–5 natural entity links per entry.
+The corpus contains 200 documents (188 content entries + 12 category index pages), 3,536 chunks spanning characters, locations, events, factions, and lore — all cross-referenced with 3–5 natural entity links per entry.
 
 ---
 

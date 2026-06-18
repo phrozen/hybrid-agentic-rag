@@ -49,21 +49,18 @@ func (ii *InvertedIndex) Index(chunks []*models.Chunk) error {
 	return nil
 }
 
-// Search queries the inverted index using proximity-based BM25 relevance ranking.
+// Search queries the inverted index using BM25 relevance ranking
+// (IDF weighting + document-length normalization).
 func (ii *InvertedIndex) Search(query string, k int) []search.Hit {
 	if ii.index == nil {
 		return nil
 	}
 
-	matches := ii.index.RankProximity(query, k)
+	matches := ii.index.RankBM25(query, k)
 	hits := make([]search.Hit, len(matches))
 	for i, m := range matches {
-		docID := m.DocID
-		if len(m.Offsets) > 0 {
-			docID = m.Offsets[0].DocumentID
-		}
 		hits[i] = search.Hit{
-			Index: docID,
+			Index: m.DocID,
 			Score: float32(m.Score),
 		}
 	}
