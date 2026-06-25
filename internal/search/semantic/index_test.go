@@ -205,7 +205,7 @@ func TestVectorIndex_Index(t *testing.T) {
 		{Content: "chunk 2"},
 	}
 
-	err := vi.Index(chunks)
+	err := vi.Index(chunks, nil)
 	if err != nil {
 		t.Fatalf("Index failed: %v", err)
 	}

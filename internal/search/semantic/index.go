@@ -42,7 +42,7 @@ func NewVectorIndex(client Embedder) *VectorIndex {
 	}
 }
 
-func (vi *VectorIndex) Index(chunks []*models.Chunk) error {
+func (vi *VectorIndex) Index(chunks []*models.Chunk, progress search.ProgressFunc) error {
 	if len(chunks) == 0 {
 		return nil
 	}
@@ -72,8 +72,10 @@ func (vi *VectorIndex) Index(chunks []*models.Chunk) error {
 			// =================================================================
 		}
 
-		// Print pre-batch status to screen for visibility
-		fmt.Printf("\r  ├─ [Embedding] Batch %d/%d (Chunks %d-%d)  ", batchIdx, totalBatches, i, end-1)
+		// Report pre-batch status through the progress callback (if provided)
+		if progress != nil {
+			progress(fmt.Sprintf("Embedding batch %d/%d (chunks %d-%d)", batchIdx, totalBatches, i, end-1))
+		}
 
 		emb, err := vi.client.Embed(texts)
 		if err != nil {

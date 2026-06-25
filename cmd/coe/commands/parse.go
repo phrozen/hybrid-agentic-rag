@@ -11,6 +11,7 @@ import (
 	"github.com/phrozen/hybrid-agentic-rag/internal/parser"
 	"github.com/phrozen/hybrid-agentic-rag/internal/search/semantic"
 	"github.com/phrozen/hybrid-agentic-rag/internal/search/text"
+	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"
 )
 
@@ -45,99 +46,95 @@ var parseCmd = &cobra.Command{
 		}
 
 		// 1. Parsing Documents
-		fmt.Printf("Parsing documents from path: %s...\n", inputDir)
+		sp, _ := pterm.DefaultSpinner.Start("Parsing documents from " + inputDir)
 		parseStart := time.Now()
 		docs, err := parser.Parse(inputDir)
 		if err != nil {
+			sp.Fail("Failed to discover and parse files")
 			return fmt.Errorf("failed to discover and parse files: %w", err)
 		}
-		parseElapsed := time.Since(parseStart)
-		fmt.Printf("  └─ Success: Loaded %d documents [%s]\n\n", len(docs), parseElapsed.Round(time.Millisecond))
+		sp.Success(fmt.Sprintf("Loaded %d documents [%s]", len(docs), time.Since(parseStart).Round(time.Millisecond)))
 
 		// 2. Saving Documents Register
 		docPath := filepath.Join(outputDir, "documents.json")
-		fmt.Printf("Saving documents metadata to %s...\n", docPath)
+		sp, _ = pterm.DefaultSpinner.Start("Saving documents metadata to " + docPath)
 		saveDocsStart := time.Now()
 		docData, err := json.MarshalIndent(docs, "", "  ")
 		if err != nil {
+			sp.Fail("Failed to marshal documents json")
 			return fmt.Errorf("failed to marshal documents json: %w", err)
 		}
 		if err := os.WriteFile(docPath, docData, 0644); err != nil {
+			sp.Fail("Failed to write documents.json")
 			return fmt.Errorf("failed to write %q: %w", docPath, err)
 		}
-		saveDocsElapsed := time.Since(saveDocsStart)
-		fmt.Printf("  └─ Success: Saved documents registry [%s]\n\n", saveDocsElapsed.Round(time.Millisecond))
+		sp.Success(fmt.Sprintf("Saved documents registry [%s]", time.Since(saveDocsStart).Round(time.Millisecond)))
 
 		// 3. Extracting and Parsing Chunks
-		fmt.Println("Extracting structural text chunks...")
+		sp, _ = pterm.DefaultSpinner.Start("Extracting structural text chunks")
 		chunkStart := time.Now()
 		chunks := parser.Chunk(docs)
-		chunkElapsed := time.Since(chunkStart)
-		fmt.Printf("  └─ Success: Segmented into %d flat sequence chunks [%s]\n\n", len(chunks), chunkElapsed.Round(time.Millisecond))
+		sp.Success(fmt.Sprintf("Segmented into %d flat sequence chunks [%s]", len(chunks), time.Since(chunkStart).Round(time.Millisecond)))
 
 		// 4. Saving Chunks Register
 		chunkPath := filepath.Join(outputDir, "chunks.json")
-		fmt.Printf("Saving chunks metadata to %s...\n", chunkPath)
+		sp, _ = pterm.DefaultSpinner.Start("Saving chunks metadata to " + chunkPath)
 		saveChunksStart := time.Now()
 		chunkData, err := json.MarshalIndent(chunks, "", "  ")
 		if err != nil {
+			sp.Fail("Failed to marshal chunks json")
 			return fmt.Errorf("failed to marshal chunks json: %w", err)
 		}
 		if err := os.WriteFile(chunkPath, chunkData, 0644); err != nil {
+			sp.Fail("Failed to write chunks.json")
 			return fmt.Errorf("failed to write %q: %w", chunkPath, err)
 		}
-		saveChunksElapsed := time.Since(saveChunksStart)
-		fmt.Printf("  └─ Success: Saved chunks registry [%s]\n\n", saveChunksElapsed.Round(time.Millisecond))
+		sp.Success(fmt.Sprintf("Saved chunks registry [%s]", time.Since(saveChunksStart).Round(time.Millisecond)))
 
 		// 5. Inverted index indexing & saving
 		idxPath := filepath.Join(outputDir, "index.bin")
-		fmt.Println("Indexing text into keyword proximity engine...")
+		sp, _ = pterm.DefaultSpinner.Start("Indexing text into keyword proximity engine")
 		iiStart := time.Now()
 		ii := text.NewInvertedIndex()
-		if err := ii.Index(chunks); err != nil {
+		if err := ii.Index(chunks, nil); err != nil {
+			sp.Fail("Failed during keyword indexing loop")
 			return fmt.Errorf("failed during keyword indexing loop: %w", err)
 		}
-		iiIndexElapsed := time.Since(iiStart)
-		fmt.Printf("  ├─ Indexed keyword coordinates [%s]\n", iiIndexElapsed.Round(time.Millisecond))
-
-		iiSaveStart := time.Now()
 		idxBytes, err := ii.MarshalBinary()
 		if err != nil {
+			sp.Fail("Failed to serialize InvertedIndex")
 			return fmt.Errorf("failed to serialize InvertedIndex: %w", err)
 		}
 		if err := os.WriteFile(idxPath, idxBytes, 0644); err != nil {
+			sp.Fail("Failed to write index.bin")
 			return fmt.Errorf("failed to write %q: %w", idxPath, err)
 		}
-		iiSaveElapsed := time.Since(iiSaveStart)
-		fmt.Printf("  └─ Success: Serialized index.bin (%d bytes) [%s]\n\n", len(idxBytes), iiSaveElapsed.Round(time.Millisecond))
+		sp.Success(fmt.Sprintf("Serialized index.bin (%d bytes) [%s]", len(idxBytes), time.Since(iiStart).Round(time.Millisecond)))
 
 		// 6. Vector/Semantic index indexing & saving (Optional behind runEmbed flag)
 		if runEmbed {
 			embPath := filepath.Join(outputDir, "embeddings.bin")
-			fmt.Println("Generating and quantizing dense semantic vectors...")
+			sp, _ = pterm.DefaultSpinner.Start("Generating and quantizing dense semantic vectors")
 			client := semantic.NewClient(nil) // Defaults to local llama-server on localhost:8080
 			vi := semantic.NewVectorIndex(client)
 
 			viStart := time.Now()
-			if err := vi.Index(chunks); err != nil {
+			if err := vi.Index(chunks, func(step string) { sp.UpdateText(step) }); err != nil {
+				sp.Fail("Failed during semantic chunk embedding loop")
 				return fmt.Errorf("failed during semantic chunk embedding loop: %w", err)
 			}
-			viIndexElapsed := time.Since(viStart)
-			fmt.Printf("\n  ├─ Compacted neural vector arrays [%s]\n", viIndexElapsed.Round(time.Millisecond))
-
-			viSaveStart := time.Now()
 			embBytes, err := vi.MarshalBinary()
 			if err != nil {
+				sp.Fail("Failed to serialize VectorIndex raw binary")
 				return fmt.Errorf("failed to serialize VectorIndex raw binary: %w", err)
 			}
 			if err := os.WriteFile(embPath, embBytes, 0644); err != nil {
+				sp.Fail("Failed to write embeddings.bin")
 				return fmt.Errorf("failed to write %q: %w", embPath, err)
 			}
-			viSaveElapsed := time.Since(viSaveStart)
-			fmt.Printf("  └─ Success: Serialized embeddings.bin (%d dims, %d bytes) [%s]\n\n", vi.Dim, len(embBytes), viSaveElapsed.Round(time.Millisecond))
+			sp.Success(fmt.Sprintf("Serialized embeddings.bin (%d dims, %d bytes) [%s]", vi.Dim, len(embBytes), time.Since(viStart).Round(time.Millisecond)))
 		} else {
-			fmt.Println("Skipping semantic embeddings generation (use flag -e / --embed to activate neural parser).")
-			fmt.Println()
+			pterm.Warning.Println("Skipping semantic embeddings generation (use flag -e / --embed to activate neural parser).")
 		}
 
 		// Calculate stats & print report to screen
@@ -149,7 +146,7 @@ var parseCmd = &cobra.Command{
 
 func printExecutionStats(chunks []*models.Chunk, startTime time.Time) {
 	if len(chunks) == 0 {
-		fmt.Println("No chunks registered to output statistics.")
+		pterm.Warning.Println("No chunks registered to output statistics.")
 		return
 	}
 
@@ -171,23 +168,20 @@ func printExecutionStats(chunks []*models.Chunk, startTime time.Time) {
 
 	avgSize := float64(totalBytes) / float64(len(chunks))
 
-	fmt.Println("================================================================================")
-	fmt.Println("                  CHRONICLES OF AETHELGARD CORPUS PROFILE                       ")
-	fmt.Println("================================================================================")
-	fmt.Printf("  • Total Chunk Elements  : %d\n", len(chunks))
-	fmt.Printf("  • Average Chunk Size    : %0.2f bytes\n", avgSize)
-	fmt.Println()
-	fmt.Printf("  • Smallest Chunk Profile: %d bytes\n", len(smallest.Content))
-	fmt.Printf("    ├─ Heading            : %q (Level %d)\n", smallest.Heading, smallest.HeadingLevel)
-	fmt.Printf("    ├─ Range              : lines %d-%d\n", smallest.StartLine, smallest.EndLine)
-	fmt.Printf("    └─ Source Location    : %s\n", smallest.Source)
-	fmt.Println()
-	fmt.Printf("  • Largest Chunk Profile : %d bytes\n", len(largest.Content))
-	fmt.Printf("    ├─ Heading            : %q (Level %d)\n", largest.Heading, largest.HeadingLevel)
-	fmt.Printf("    ├─ Range              : lines %d-%d\n", largest.StartLine, largest.EndLine)
-	fmt.Printf("    └─ Source Location    : %s\n", largest.Source)
-	fmt.Println("================================================================================")
-	fmt.Printf("Total Elapsed Execution Time: %s\n", time.Since(startTime).Round(time.Millisecond))
-	fmt.Println("================================================================================")
-	fmt.Println()
+	pterm.DefaultSection.Println("Chronicles of Aethelgard Corpus Profile")
+
+	_ = pterm.DefaultTable.WithHasHeader().WithBoxed().WithData(pterm.TableData{
+		{"Metric", "Value"},
+		{"Total Chunk Elements", fmt.Sprintf("%d", len(chunks))},
+		{"Average Chunk Size", fmt.Sprintf("%0.2f bytes", avgSize)},
+		{"Smallest Chunk", fmt.Sprintf("%d bytes", len(smallest.Content))},
+		{"  Heading", fmt.Sprintf("%q (Level %d)", smallest.Heading, smallest.HeadingLevel)},
+		{"  Range", fmt.Sprintf("lines %d-%d", smallest.StartLine, smallest.EndLine)},
+		{"  Source", smallest.Source},
+		{"Largest Chunk", fmt.Sprintf("%d bytes", len(largest.Content))},
+		{"  Heading", fmt.Sprintf("%q (Level %d)", largest.Heading, largest.HeadingLevel)},
+		{"  Range", fmt.Sprintf("lines %d-%d", largest.StartLine, largest.EndLine)},
+		{"  Source", largest.Source},
+		{"Total Elapsed", time.Since(startTime).Round(time.Millisecond).String()},
+	}).Render()
 }

@@ -15,7 +15,7 @@ const (
 type SearchMode int
 
 const (
-	SearchRFF      SearchMode = iota
+	SearchRFF SearchMode = iota
 	SearchText
 	SearchSemantic
 )
@@ -32,8 +32,11 @@ type SearchResult struct {
 	Breadcrumb string
 }
 
+// ProgressFunc reports a human-readable progress step during indexing.
+type ProgressFunc func(step string)
+
 type Indexer interface {
-	Index(chunks []*models.Chunk) error
+	Index(chunks []*models.Chunk, progress ProgressFunc) error
 	Search(query string, k int) []Hit
 	MarshalBinary() ([]byte, error)
 	UnmarshalBinary(data []byte) error
