@@ -11,10 +11,10 @@ type mockIndexer struct {
 	hits []search.Hit
 }
 
-func (m *mockIndexer) Index(chunks []*models.Chunk) error      { return nil }
-func (m *mockIndexer) MarshalBinary() ([]byte, error)          { return nil, nil }
-func (m *mockIndexer) UnmarshalBinary(data []byte) error       { return nil }
-func (m *mockIndexer) Search(query string, k int) []search.Hit { return m.hits }
+func (m *mockIndexer) Index(chunks []*models.Chunk, _ search.ProgressFunc) error { return nil }
+func (m *mockIndexer) MarshalBinary() ([]byte, error)                            { return nil, nil }
+func (m *mockIndexer) UnmarshalBinary(data []byte) error                         { return nil }
+func (m *mockIndexer) Search(query string, k int) []search.Hit                   { return m.hits }
 
 func TestSearch_ModeDispatch(t *testing.T) {
 	chunks := []*models.Chunk{

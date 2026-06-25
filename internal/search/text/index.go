@@ -25,8 +25,9 @@ func NewInvertedIndex() *InvertedIndex {
 	}
 }
 
-// Index populates the inverted index with chunks.
-func (ii *InvertedIndex) Index(chunks []*models.Chunk) error {
+// Index populates the inverted index with chunks. The progress callback is
+// unused: keyword indexing is a fast in-memory loop with no batch reporting.
+func (ii *InvertedIndex) Index(chunks []*models.Chunk, _ search.ProgressFunc) error {
 	// Re-initialize index on bulk-load execution
 	ii.index = blaze.NewInvertedIndex()
 

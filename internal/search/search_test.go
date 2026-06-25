@@ -72,7 +72,7 @@ func TestTextSearchSorting(t *testing.T) {
 		{Content: "apple apple and more apple things"},
 		{Content: "completely unrelated text query words"},
 	}
-	if err := idx.Index(chunks); err != nil {
+	if err := idx.Index(chunks, nil); err != nil {
 		t.Fatalf("failed to index chunks: %v", err)
 	}
 
@@ -119,7 +119,7 @@ func TestSemanticSearchSorting(t *testing.T) {
 		{Content: "banana"},
 	}
 
-	if err := vi.Index(chunks); err != nil {
+	if err := vi.Index(chunks, nil); err != nil {
 		t.Fatalf("indexing failed: %v", err)
 	}
 

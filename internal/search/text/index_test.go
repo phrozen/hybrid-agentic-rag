@@ -15,7 +15,7 @@ func TestInvertedIndex_IndexAndSearch(t *testing.T) {
 		{Content: "The Silvermoon Academy of Starry Magic"},
 	}
 
-	err := ii.Index(chunks)
+	err := ii.Index(chunks, nil)
 	if err != nil {
 		t.Fatalf("Failed to Index chunks: %v", err)
 	}
@@ -53,7 +53,7 @@ func TestInvertedIndex_Serialization(t *testing.T) {
 		{Content: "Stonehold steel weapons"},
 	}
 
-	if err := ii.Index(chunks); err != nil {
+	if err := ii.Index(chunks, nil); err != nil {
 		t.Fatalf("Failed to Index: %v", err)
 	}
 
